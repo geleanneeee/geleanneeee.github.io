@@ -1,5 +1,5 @@
 body{
-	font: 100% Poppins
+	font: 100% Poppins;
 	margin: 20px;
 }
 
@@ -8,6 +8,18 @@ body{
 	position: relative;
 	overflow: auto;
 	background-color: black;
-	float: left;
-	text-align: center;
 } 
+
+#menulist li {
+	float: left;
+	list-style-type: none;
+	margin: 4px;
+	padding: 2px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#menulist li a{
+	color: white;
+	text-decoration: none;
+}
