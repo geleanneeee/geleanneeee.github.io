@@ -23,3 +23,11 @@ body{
 	color: white;
 	text-decoration: none;
 }
+
+#menulist li:hover {
+	background-color: blue;
+}
+
+h1, h2, h3 {
+	color:black;
+}
