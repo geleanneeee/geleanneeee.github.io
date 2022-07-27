@@ -4,8 +4,8 @@ body{
 }
 
 .container {
-	min-width: 1903px;
-	min-height: 703px;
+	min-width: 900px;
+	overflow: auto;
 	position: relative;
 }
 
