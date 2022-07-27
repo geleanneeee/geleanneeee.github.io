@@ -1,6 +1,17 @@
 body{
-	font: 100% Poppins;
+	font: 100% Poppins, San Serif;
 	margin: 20px;
+}
+
+.container {
+	min-width: 1903px;
+	min-height: 703px;
+	position: relative;
+}
+
+#cover {
+	background-image: url(../images/cute-aesthetic/coffee);
+	background-color: gray;
 }
 
 #menulist {
@@ -30,4 +41,14 @@ body{
 
 h1, h2, h3 {
 	color:black;
+}
+
+.button1 {
+	background-color: white;
+	color: #c4996c;
+}
+
+.button1:hover {
+	background-color: #c4996c;
+	color: white;
 }
