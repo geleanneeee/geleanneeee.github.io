@@ -11304,3 +11304,7 @@ section {
   background-image: url(../assets/clouds.jpg);
   background-color: gray;
 }
+
+img {
+  width: 350px;
+}
